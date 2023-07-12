@@ -6,7 +6,7 @@ interface ButtonProps {
 	type: "fill" | "outline" | "menu";
 	label: string;
 	color?: "white" | "black" | "green";
-	onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+	onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
 const Button: React.FC<ButtonProps> = ({ type, label, color, onClick }) => {
