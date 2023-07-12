@@ -18,8 +18,11 @@ const Cost = () => {
 						идею по четко прописанному функционалу и приоритетности!
 					</p>
 					<div className="gap-[16px] grid grid-cols-1  max-w-sm md:max-w-xl">
-						{CostAdvantages.map((text) => (
-							<div className="flex flex-row gap-[16px] items-center">
+						{CostAdvantages.map((text, index) => (
+							<div
+								key={index}
+								className="flex flex-row gap-[16px] items-center"
+							>
 								<div
 									className="h-[24px] w-[24px] bg-no-repeat bg-contain bg-center"
 									style={{ backgroundImage: "url(/accept.svg)" }}
