@@ -3,7 +3,7 @@ import Button from "./Button";
 const cta2 = () => {
 	return (
 		<div
-			className="h-screen flex bg-no-repeat bg-cover justify-end items-end min-h-[600px]"
+			className="max-h-screen aspect-[9/16] md:aspect-video flex bg-no-repeat bg-cover justify-end items-end"
 			style={{ backgroundImage: "url(/cta2.png)" }}
 		>
 			<div className="flex flex-col gap-4 m-[5%] max-w-[360px]">

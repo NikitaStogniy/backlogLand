@@ -1,6 +1,6 @@
 const Services = () => {
 	return (
-		<div className="flex flex-col w-full m-auto md:w-3/4 p-24 gap-8">
+		<div className="flex flex-col w-full m-auto lg:w-3/4 p-8 lg:p-24 gap-8">
 			<h2 className="font-bold text-2xl">
 				У вас возникла идея IT-продукта, но вы не знаете:
 			</h2>

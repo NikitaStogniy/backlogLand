@@ -25,7 +25,7 @@ const Menu = () => {
 		<div className="fixed flex-col z-50 w-full md:w3/4 backdrop-blur-sm">
 			<div className={open ? "bg-white" : ""}>
 				<div className=" py-8 flex flex-row justify-between w-full align-center items-center px-4">
-					<div className="text-2xl font-bold text-black">ITMYHUB</div>
+					<div className="text-2xl font-bold text-black ">ITMYHUB</div>
 					<ul className="hidden lg:flex flex flex-row gap-8 xl:gap-16">
 						{links.map((link) => (
 							<li key={link.text}>
