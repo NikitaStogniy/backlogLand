@@ -51,7 +51,7 @@ const Cost = () => {
 					<div className="bg-[#0D4A42] rounded-xl p-10 w-fit flex flex-col gap-4 text-white">
 						<div>
 							<p className="font-bold text-5xl">9 999 ₽</p>
-							<p className="text-sm">цена действительна до 30.06.2023</p>
+							<p className="text-sm">цена действительна до 07.07.2023</p>
 						</div>
 						<Button
 							type={"fill"}
