@@ -27,7 +27,7 @@ const Cta = () => {
 					сформируем пакет документации, с которым можно пойти к любому
 					разработчику:
 				</p>
-				<ul className="grid grid-cols-1 lg:grid-cols-2 list-disc gap-2">
+				<ul className="ml-4 mt-4 grid grid-cols-1 lg:grid-cols-2 list-disc gap-2">
 					{list.map((item, index) => (
 						<li key={index}>{item}</li>
 					))}

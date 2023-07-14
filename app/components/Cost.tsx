@@ -11,7 +11,7 @@ const Cost = () => {
 	return (
 		<div className="w-full bg-black text-white py-16 px-4">
 			<div className="flex flex-col md:flex-row  w-full justify-between m-auto md:w-3/4 gap-4">
-				<div className="w-full md:w-2/4 flex flex-col gap-4">
+				<div className="w-full md:w-2/4 flex flex-col gap-4 mb-16 md:mb-0">
 					<p className="text-xl">
 						Не тратьте время на интуитивные пробы и долгие оценочные суждения.
 						Закажите бэклог от специалистов и уже через 3 дня начните воплощать

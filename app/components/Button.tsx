@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({ type, label, color, onClick }) => {
 		"w-fit px-[28px] py-[12px] rounded-xl font-medium ease-in-out duration-300 flex flex-row gap-[8px] flex-row whitespace-nowrap flex-nowrap";
 	if (type == "fill" && color == "black") {
 		classVar +=
-			"shadow-2xl shadow-violet-500/10 bg-black text-[#DCF9F6] hover:bg-violet-600 flex justify-center hover:shadow-violet-500/90 w-auto";
+			"shadow-2xl w-full shadow-violet-500/10 bg-black text-[#DCF9F6] hover:bg-violet-600 flex justify-center hover:shadow-violet-500/90 w-auto";
 	} else if (type == "fill" && color == "white") {
 		classVar +=
 			"shadow-2xl shadow-white/30 bg-white text-gray-800 hover:shadow-white/90 ";

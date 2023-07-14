@@ -58,7 +58,7 @@ const Form = () => {
 			<p className="text-sm text-[#2EB1A8]">
 				Отправляя заявку, я даю согласие на обработку своих персональных данных
 			</p>
-			<p className="text-sm text-[#2EB1A8]">
+			<p className="text-sm text-[#2EB1A8] my-4">
 				Минимальная цена Discovery-фазы 300 тыс. руб. Для каждого проекта
 				рассчитывается индивидуально.
 			</p>
