@@ -5,7 +5,7 @@ const Heading = () => {
 	return (
 		<div
 			className="max-h-screen aspect-[9/16] md:aspect-[17/9] bg-center m-0 w-full flex justify-start items-end bg-cover bg-no-repeat"
-			style={{ backgroundImage: "url(/headingBg.png)" }}
+			style={{ backgroundImage: "url(/headingBg.webp)" }}
 		>
 			<div className="my-[10%] text-white  mx-[5%] flex flex-col gap-10">
 				<div className="flex flex-col gap-2">
