@@ -17,7 +17,7 @@ const Cta = () => {
 	];
 
 	return (
-		<div className="flex flex-col md:flex-row w-full m-auto w-full xl:w-3/4 p-6 md:p-24 gap-8 justify-between">
+		<div className="flex flex-col md:flex-row w-full m-auto w-full md:w-3/4 p-6  gap-8 justify-between">
 			<div>
 				<h3 className="text-2xl font-bold">
 					Одного бэклога мало и хотите как в кейсах?

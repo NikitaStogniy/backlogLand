@@ -16,12 +16,18 @@ export default function Home() {
 		<main>
 			<Menu />
 			<Heading />
+			<div id="services" />
 			<ServicesFirst />
 			<ServicesSecond />
+			<div id="price" />
 			<Cost />
+			<div id="about" />
 			<About />
+			<div id="cases" />
 			<Faq />
+			<div id="cta" />
 			<Cta />
+			<div id="partners" />
 			<Partners />
 			<Cta2 />
 			<Footer />

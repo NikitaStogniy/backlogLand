@@ -54,6 +54,7 @@ const Cost = () => {
 							<p className="text-sm">цена действительна до 31.07.2023</p>
 						</div>
 						<Button
+							link="#cta"
 							type={"fill"}
 							color="white"
 							label={"Заказать консультацию"}

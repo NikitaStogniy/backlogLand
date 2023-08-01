@@ -6,11 +6,11 @@ import Button from "./Button";
 const Menu = () => {
 	const links = [
 		{ text: "Главная", link: "#" },
-		{ text: "Услуги", link: "#" },
-		{ text: "Стоимость", link: "#" },
-		{ text: "Экспертиза", link: "#" },
-		{ text: "Кейсы", link: "#" },
-		{ text: "Партнеры", link: "#" },
+		{ text: "Услуги", link: "#services" },
+		{ text: "Стоимость", link: "#price" },
+		{ text: "Экспертиза", link: "#about" },
+		{ text: "Кейсы", link: "#cases" },
+		{ text: "Партнеры", link: "#partners" },
 	];
 	const [open, setOpen] = useState(Boolean);
 	const handleOpen = () => {
@@ -25,12 +25,12 @@ const Menu = () => {
 		<div className="fixed flex-col z-50 w-full md:w3/4 backdrop-blur-sm">
 			<div className={open ? "bg-white" : ""}>
 				<div className=" py-8 flex flex-row justify-between w-full align-center items-center px-4">
-					<div className="text-2xl font-bold text-black ">ITMYHUB</div>
+					<div className="text-2xl font-bold text-gray-300 ">ITMYHUB</div>
 					<ul className="hidden lg:flex flex flex-row gap-8 xl:gap-16">
 						{links.map((link) => (
 							<li key={link.text}>
 								<a
-									className="text-gray-400 ease-in-out duration-300 hover:text-gray-600"
+									className="text-gray-300 ease-in-out duration-300 hover:text-gray-600"
 									href={link.link}
 								>
 									{link.text}
@@ -43,7 +43,7 @@ const Menu = () => {
 						<Button onClick={() => handleOpen()} type={"menu"} label={""} />
 					</div>
 					<div className="hidden lg:block">
-						<Button type={"outline"} label={"Попробовать"} />
+						<Button link="#cta" type={"outline"} label={"Попробовать"} />
 					</div>
 				</div>
 				{open && (

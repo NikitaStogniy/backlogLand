@@ -6,8 +6,8 @@ const cta2 = () => {
 			className="max-h-screen aspect-[9/16] md:aspect-[17/9] w-full bg-center flex bg-no-repeat bg-cover justify-end items-end"
 			style={{ backgroundImage: "url(/cta2.png)" }}
 		>
-			<div className="flex flex-col gap-4 m-[5%] max-w-[360px]">
-				<div className="bg-[#0D4A42] rounded-xl p-10 w-fill flex flex-col gap-4 text-white ">
+			<div className="flex flex-col gap-4 m-[5%] max-w-[360px] mr-[10%]">
+				<div className="bg-[#0D4A42] rounded-xl p-10  w-fill flex flex-col gap-4 text-white ">
 					<p className="font-bold text-2xl">
 						Помни, что время —<br />
 						деньги.
@@ -24,7 +24,12 @@ const cta2 = () => {
 							цена действительна до 31.07.2023
 						</p>
 					</div>
-					<Button type={"fill"} color="black" label={"Заказать консультацию"} />
+					<Button
+						link="#cta"
+						type={"fill"}
+						color="black"
+						label={"Заказать консультацию"}
+					/>
 				</div>
 			</div>
 		</div>
